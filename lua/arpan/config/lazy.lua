@@ -28,7 +28,8 @@ vim.opt.termguicolors = true
 
 -- empty setup using defaults
 -- require("nvim-tree").setup()
-vim.wo.relativenumber=true
+vim.opt.relativenumber=true
+vim.opt.scrolloff = 8
 require("lazy").setup("arpan.plugins")
 --require("lazy").setup({
 -- "folke/which-key.nvim",
