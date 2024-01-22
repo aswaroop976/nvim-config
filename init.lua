@@ -12,3 +12,6 @@ vim.api.nvim_set_option("clipboard","unnamed")
 --	\   'cache_enabled': 0,
 --	\ }
 require("arpan")
+require("arpan.set")
+require("arpan.remap")
+require("arpan.clipboard")

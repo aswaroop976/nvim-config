@@ -18,7 +18,6 @@ vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappin
 --vim.keymap.set('n', '<leader>fg', telescope.builtin.live_grep, {})
 --vim.keymap.set('n', '<leader>fb', telescope.builtin.buffers, {})
 --vim.keymap.set('n', '<leader>fh', telescope.builtin.help_tags, {})
-vim.keymap.set("n", "<leader>e", vim.cmd.NvimTreeToggle)
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
@@ -28,9 +27,12 @@ vim.opt.termguicolors = true
 
 -- empty setup using defaults
 -- require("nvim-tree").setup()
-vim.opt.relativenumber=true
-vim.opt.scrolloff = 8
 require("lazy").setup("arpan.plugins")
+-- bunch of telescope stuff here ----------------------------------------------
+local builtin = require('telescope.builtin')
+-- vim.keymap.set('n', '<leader>ff', builtin.find_file, {})
+
+
 --require("lazy").setup({
 -- "folke/which-key.nvim",
 -- { "folke/neoconf.nvim", cmd = "Neoconf" },
