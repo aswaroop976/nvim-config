@@ -1,4 +1,4 @@
-vim.api.nvim_set_option("clipboard","unnamed")
+-- vim.api.nvim_set_option("clipboard","unnamed")
 require("arpan")
 require("arpan.set")
 require("arpan.remap")
