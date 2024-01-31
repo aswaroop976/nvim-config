@@ -1,8 +1,8 @@
-return {
-    "rebelot/kanagawa.nvim",
-    lazy = false,
-    priority = 999,
-    config = function()
-        vim.cmd('colorscheme kanagawa')
-    end
-}
+ return {
+     "rebelot/kanagawa.nvim",
+     lazy = false,
+     priority = 1,
+    -- config = function()
+    --     vim.cmd('colorscheme kanagawa')
+    -- end
+ }

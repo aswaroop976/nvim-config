@@ -29,7 +29,6 @@ vim.opt.termguicolors = true
 -- require("nvim-tree").setup()
 require("lazy").setup("arpan.plugins")
 -- bunch of telescope stuff here ----------------------------------------------
-local builtin = require('telescope.builtin')
 -- vim.keymap.set('n', '<leader>ff', builtin.find_file, {})
 
 
