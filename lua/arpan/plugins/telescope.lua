@@ -10,5 +10,4 @@ return {
 		vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 		vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 	end,
-    dldlkfjsldkfjslkdfjs
 }
