@@ -9,6 +9,7 @@ vim.opt.expandtab = true
 vim.opt.incsearch = true
 
 vim.opt.scrolloff = 8
+vim.opt.cursorline = true
 
 
 
